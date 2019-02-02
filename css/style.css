@@ -1,0 +1,344 @@
+@import url("css/adaptive.css");
+
+body {
+	margin: 0;
+	padding: 0;
+
+}
+header {
+	max-width: 100%;
+	border-bottom: 1px solid #edeeee;
+}
+a {
+	list-style:none;
+	text-decoration: none;
+	font-family: 'Proxima Nova Rg';
+}
+.logo {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-around;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+.logo img {
+	max-width: 100%;
+	width: 104px;
+	height: 33px;
+}
+.search {
+	max-width: 100%;
+	width: 220px;
+	height: 30px;
+border: 1px solid #edeeee;
+border-radius: 50px 50px 50px 50px;
+display: -webkit-flex;
+display: -moz-flex;
+display: -ms-flex;
+display: -o-flex;
+display: flex;
+justify-content: center;
+-ms-align-items: center;
+align-items: center;
+background-color: #fafafa;
+}
+.search input {
+	background-color: #fafafa;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+
+}
+.search__two input {
+	font-family: 'Proxima Nova Regular' sans-serif;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: flex-end;
+	width: 47px;
+	max-width: 100%;
+	border: none;
+	color: #c9c9c9;
+
+}
+.register {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+
+}
+.b-register {
+	font-weight: bold;
+	margin-right: 15px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+
+	align-items: center;
+	max-width: 100%;
+	width: 130px;
+	height: 30px;
+	background-color: #4090db;
+	border-radius: 50px 50px 50px 50px;
+
+}
+.b-register:hover {
+	background-color: #000;
+}
+.b-register a {
+color:#fff;
+}
+.log {
+	font-family: 'Proxima Nova Rg';
+	margin-top: 3px;
+
+}
+.log a {
+	color:#4090db;
+}
+.log a:hover {
+	color:#000;
+
+}
+main {
+	max-width: 100%;
+	background-color: #fafafa;
+	
+
+}
+.fon_main {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	padding-top: 50px;
+	max-width: 100%;
+
+}
+.ava {
+	margin-right: 100px;
+}
+.flex_user_follow {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+.user_name span {
+	color:#000;
+	font-size: 35px;
+	font-family: 'Proxima Nova Rg';
+}
+.b-follow button {
+	margin-left: 20px;
+	font-size: 15px;
+	background-color: #fafafa;
+	border:none;
+	color:#4090db;
+	border:1px solid #4090db;
+	max-width: 100%;
+	width: 80px;
+	height: 30px;
+	margin-top: 5px;
+}
+.b-follow button:hover {
+	border:1px solid #222;
+}
+
+.add_flex {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+
+}
+.static_account {
+display: -webkit-flex;
+display: -moz-flex;
+display: -ms-flex;
+display: -o-flex;
+display: flex;
+margin-top: 30px;
+
+}
+.static_account span {
+	font-family: 'Proxima Nova Rg';
+	font-size: 17px;
+	color:#000;
+	font-weight: bold;
+}
+.static_account a {
+	font-family: 'Proxima Nova Rg';
+	font-size: 17px;
+	color:#3d4044;
+
+}
+.info_flex mark{
+	background-color: #fafafa;
+	color:#000;
+	font-size: 17px;
+	margin-right: 3px;
+	 font-family: 'Proxima Nova Rg';
+	 font-weight: bold;
+
+}
+.info_flex p {
+	color:#4b4f60;
+	font-size: 17px;
+	 font-family: 'Proxima Nova Rg';
+}
+.post {
+
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	margin-right: 30px;
+
+
+}
+.followers {
+
+	margin-right: 30px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+.following {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+
+	margin-right: 30px;
+}
+.following a {
+	margin-left: 5px;
+}
+.followers a  {
+  margin-left: 5px;
+}
+.post a {
+	margin-left: 5px;
+}
+.photos {
+	margin-top: 100px;
+
+
+}
+.sloi1 {
+	max-width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.sloi2 {
+	max-width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.sloi3 {
+	max-width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.photos img {
+	margin-left: 10px;
+	margin-top: 10px;
+	
+}
+#fon_p {
+
+}
+#play {
+
+ 
+
+}
+.play {
+	position: relative;
+	display: flex;
+    align-items: center;
+	justify-content: center;
+}
+.play_dota {
+	position: absolute;
+}
+.load {
+	max-width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-top: 100px;
+}
+.load_more {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 100%;
+	width: 120px;
+	height: 120px;
+	border: 1px solid #4190db;
+	border: radius 100%; ;
+	-webkit-border-radius:100% ;
+	-moz-border-radius:100% ;
+	-ms-border-radius:100% ;
+	-o-border-radius:100% ;
+}
+.load_more a {
+	font-size: 12px;
+	font-weight: bold;
+	color: #4190db;
+	font-family: 'Proxima Nova Rg';
+}
+footer {
+	background-color: #fafafa;
+
+}
+.footer_nav {
+	padding-top: 50px;
+	max-width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+.footer_nav nav {
+	display: flex;
+}
+.footer_nav li {
+	font-family: 'Proxima Nova Rg';
+	font-size: 12px;
+	color: #4190db;
+	font-weight: bold;
+	list-style: none;
+	text-decoration: none;
+	margin-left: 20px;
+}
+.instagram span {
+	font-size: 12px;
+	color: #4190db;
+	font-family: 'Proxima Nova Rg';
+	font-weight: bold;
+
+}
